@@ -11,7 +11,7 @@
 <h1 align="center"><strong>Demonstration</strong></h1>
 <br>
 <h2 align="center"><strong>Main Page</strong></h2>
-<p align="center"><img src="demo/main_page.png" height=400 width=900></p>
+<p align="center"><img src="demo/main_page.png" height=425 width=1000></p>
 <br>
 <h2 align="center"><strong>Admin Dashboard</strong></h2>
-<p align="center"><img src="demo/admin_dashboard.png" height=400 width=900></p>
+<p align="center"><img src="demo/admin_dashboard.png" height=425 width=1000></p>
