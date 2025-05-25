@@ -1,0 +1,32 @@
+
+.contact-section {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    color: #555;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-section p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-section p a:hover {
+    text-decoration: underline;
+}
+

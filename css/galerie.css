@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  background-image: url('../images/background_galerie.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.titlu-galerie {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.container-galerie {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.item-galerie {
+  text-align: center;
+}
+
+.imagine-galerie {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagine-galerie:hover {
+  transform: scale(1.05);
+} 
+
+.descriere-galerie {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 10px;
+}
