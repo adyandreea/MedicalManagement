@@ -1,0 +1,133 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    margin: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #0a6478;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #0a6478;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.section {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+}
+
+
+.section h2 {
+    color: #076978;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0a6478;
+    padding-bottom: 8px;
+}
+
+form#formSpec,
+form#formServ,
+form#formMedic {
+    margin-bottom: 20px;
+}
+
+
+input[type="text"], select {
+    padding: 8px 12px;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-right: 10px;
+    min-width: 220px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+    outline: none;
+    border-color: #0a6478;
+}
+
+
+button {
+    background-color: #0a6478;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #084f59;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+ul li {
+    background-color: #e6f1f5;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
+form[style*="display:inline"] {
+    display: inline-flex !important;
+    align-items: center;
+}
+
+
+ul li input[type="text"], 
+ul li select {
+    width: auto;
+    margin: 0 5px;
+}
+
+
+ul li > *:not(:last-child) {
+    margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+    input[type="text"], select {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+    ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    form[style*="display:inline"] {
+        display: block !important;
+        margin-top: 8px;
+    }
+}
